@@ -1,0 +1,58 @@
+/*
+	Theme Name: Unicum
+	Theme URI: http://themeforest.net/user/wplab/portfolio/?ref=wplab
+	Author: WPlab
+	Text Domain: wplab-unicum
+	Domain Path: /languages
+	Author URI: http://wplab.pro
+	License URI: http://themeforest.net/licenses/regular_extended
+	Description: Unicum is a One Page Fullscreen Theme for your projects. Advantage of this project that it includes three directions. For the Creative Agency, App Showcase and Personal Page.
+	Version: 1.3.10
+	Tags: white, dark
+	License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself. You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+*/
+.sticky, .gallery-caption, .bypostauthor, .wp-caption-text {
+
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.video-bg-section .container-fluid,
+.video-bg-section .container {
+	position: relative;
+	z-index: 10;
+}
+.parallax-section {
+	position: relative;
+	z-index: 15;
+}
+.parallax-section .container-fluid,
+.parallax-section .container {
+	position: relative;
+	z-index: 20;
+}

@@ -1,0 +1,38 @@
+/**
+	=====================================================================================================================================================
+	Load Custom Theme fonts
+	=====================================================================================================================================================
+**/
+@font-face {
+  font-family: 'fira_sanslight';
+  src: url('../../fonts/firasans-light-webfont.eot');
+  src: url('../../fonts/firasans-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+   url('../../fonts/firasans-light-webfont.woff2') format('woff2'),
+   url('../../fonts/firasans-light-webfont.woff') format('woff'),
+   url('../../fonts/firasans-light-webfont.ttf') format('truetype'),
+   url('../../fonts/firasans-light-webfont.svg#fira_sanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fira_sansultralight';
+  src: url('../../fonts/firasans-ultralight-webfont.eot');
+  src: url('../../fonts/firasans-ultralight-webfontd41d.eot?#iefix') format('embedded-opentype'),
+   url('../../fonts/firasans-ultralight-webfont.woff2') format('woff2'),
+   url('../../fonts/firasans-ultralight-webfont.woff') format('woff'),
+   url('../../fonts/firasans-ultralight-webfont.ttf') format('truetype'),
+   url('../../fonts/firasans-ultralight-webfont.svg#fira_sansultralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fira_sansbook';
+  src: url('../../fonts/firasans-book-webfont.eot');
+  src: url('../../fonts/firasans-book-webfontd41d.eot?#iefix') format('embedded-opentype'),
+   url('../../fonts/firasans-book-webfont.woff2') format('woff2'),
+   url('../../fonts/firasans-book-webfont.woff') format('woff'),
+   url('../../fonts/firasans-book-webfont.ttf') format('truetype'),
+   url('../../fonts/firasans-book-webfont.svg#fira_sansbook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
